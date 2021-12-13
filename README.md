@@ -67,26 +67,26 @@
 
 _In this step we update the Lambda code which executes on the API calls. We don't need all the boilerplate code for our simple application so I have cleaned it up a bit._
 
-- Navigate to `/amplify/backend/function/ToDoManagerFunction/src/app.js`
-- Update the code with code found in this repo
+- Navigate to `/amplify/backend/function/ToDoManagerFunction/src/app.js` and update the code to match: [app.js](/amplify/backend/function/ToDoManagerFunction/src/app.js)
+
 
 ### Update the frontend code
 
 _In this step we create the UI which the user can see, including the CSS styling._
 
-- Navigate to `to-do-app/src`
-- Update index.js to match with code found in this repo
-- Add styles.css and update to match with code found in this repo
+- Navigate to `/src`
+- Update `/src/index.js` with code found here: [/src/index.js](/src/index.js)
+- Add [/src/styles.css](/src/styles.css)
 - Create a `components` directory
-- Add files:
-  - AddTodoForm.js
-  - App.css
-  - App.js
-  - EditTodo.js
-  - List.js
-  - logo.png
-  - Todo.js
-- Update component files to match with code found in this repo
+- Add files to components directory:
+  - [AddTodoForm.js](/src/components/AddTodoForm.js)
+  - [App.css](/src/components/App.css)
+  - [App.js](/src/components/App.js)
+  - [EditTodo.js](/src/components/EditTodo.js)
+  - [List.js](/src/components/List.js)
+  - [logo.png](/src/components/logo.png)
+  - [Todo.js](/src/components/Todo.js)
+
 
 ### Deploy backend infrastructure and test the application locally
 
