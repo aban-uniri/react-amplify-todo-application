@@ -14,7 +14,7 @@ const styles = {
     padding: 10,
     alignItems: "center",
     marginTop: 10,
-    width: 500,
+    maxWidth: "500px",
     backgroundColor: "rgba(66, 66, 66, 0.7)",
     color: "white",
   },
@@ -32,7 +32,7 @@ class EditTodo extends Component {
         <Paper elevation={2} style={styles.Paper}>
           <form onSubmit={this.handleSave} style={{ display: "flex" }}>
             <Input
-              style={{ width: "90%" }}
+              style={{ width: "90%", color: "white" }}
               defaultValue={this.props.todo}
               inputRef={this.inputRef}
             />

@@ -21,7 +21,7 @@ class AddTodoForm extends Component {
       <div>
         <form onSubmit={this.handleSubmit} style={{ display: "flex" }}>
           <Input
-            placeholder="Todo"
+            placeholder="ToDo Placeholder"
             inputProps={{
               "aria-label": "Description",
             }}

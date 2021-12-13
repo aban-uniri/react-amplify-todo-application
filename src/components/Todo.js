@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Delete, Build } from "@material-ui/icons";
+import { Delete, Edit } from "@material-ui/icons";
 import { Grid, Paper } from "@material-ui/core";
 import IconButton from "@material-ui/core/IconButton";
 
@@ -13,7 +13,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     marginTop: 10,
-    width: 500,
+    maxWidth: "500px",
     backgroundColor: "rgba(66, 66, 66, 0.7)",
     color: "white",
   },
@@ -58,7 +58,7 @@ class Todo extends Component {
             style={styles.Icon}
             onClick={() => this.props.updateTodo(this.props.index)}
           >
-            <Build fontSize="small" />
+            <Edit fontSize="small" />
           </IconButton>
           <IconButton
             color="secondary"

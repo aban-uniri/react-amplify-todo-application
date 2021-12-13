@@ -14,7 +14,7 @@ const styles = {
     padding: 20,
     margin: "auto",
     textAlign: "center",
-    width: 500,
+    maxWidth: "500px",
     backgroundColor: "rgba(66, 66, 66, 0.7)",
     color: "white",
   },
