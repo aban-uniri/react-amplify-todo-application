@@ -1,4 +1,5 @@
 # ToDo Application on AWS
+![](ToDoApp.gif)
 
 ## Setup
 
