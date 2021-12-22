@@ -15,7 +15,7 @@
 - Install AWS Amplify: `npm i -g @aws-amplify/cli`
 - Log in to your AWS Account: `amplify configure`
 
-- Bootstrap the React application: npx create-react-app to-do-app
+- Bootstrap the React application: `npx create-react-app to-do-app`
 - Move to the created directory: `cd to-do-app`
 - Install required packages:
 
